@@ -5,23 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Projeto rede social</title>
+    <link rel="stylesheet" href="../css/style.css">   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
+      <script> 
+        function clickMenu(){
+            if (resp.style.display =='block'){
+                resp.style.display ='none'  
+      
+            }else{
+              resp.style.display = 'block'
+            }
+        }
+         </script>
+    
+      <title>Projeto rede social</title>
 </head>
 <body>
   
     <main>
         <section id="tel">
-               <iframe src="home.html"name="tela" id="tela" frameborder="0"></iframe>
+              <img src="../imagens/frame-iphone.png" alt=""> 
+            <iframe src="home.html"name="tela" id="tela" frameborder="0"></iframe>
 
         </section>
         
-        <section id="redes">
-            <a href="home.html" target="tela" alt="home"><img src="../imagens/logo-home.jpg" alt=""></a><br>
-            <a href="youtube.html" target="tela" alt="YouTube"><img src="../imagens/logo-youtube.jpg" alt=""></a><br>
-            <a href="git.html" target="tela" alt="GitHub"><img src="../imagens/logo-github.jpg" alt=""></a><br>
-            <a href="linkein.html" target="tela" alt="link"><img src="../imagens/logo-linkein.jpg" alt=""></a> <br>
-
+        <section id="redes" >
+            <span class="material-icons" id="burg" onclick="clickMenu()">menu</span>
+           
+            <nav id="resp">
+           
+            <ul>
+         <a href="home.html" target="tela" alt="home"><img src="../imagens/logo-home.jpg" alt=""></a>
+          <a href="youtube.html" target="tela" alt="YouTube"><img src="../imagens/logo-youtube.jpg" alt=""><a>
+         <a href="git.html" target="tela" alt="GitHub"><img src="../imagens/logo-github.jpg" alt=""></a> 
+          <a href="linkein.html" target="tela" alt="link"><img src="../imagens/logo-linkein.jpg" alt=""><a> 
+           
+        </ul>
+        </nav>
                 
         </section>
    
