@@ -34,8 +34,8 @@ section#tel{
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-    height: 600px;
-    width: 350px;
+    height: 500px;
+    width: 300px;
  }
  
  #tel img{
@@ -184,7 +184,7 @@ section#tel{
  
  
   section#tel{
-     height: 500px;
+     height: 480px;
      width: 270px;
   }
 
@@ -203,7 +203,19 @@ section#tel{
 }
 
 
+@media screen and (min-width:1400px) {
+    
+  section#tel{
+    height: 520px;
+    width: 380px;
+ }
 
+ #redes img{
+  width: 37%;
+  height: 25%;
+} 
+
+}
 
 
 
